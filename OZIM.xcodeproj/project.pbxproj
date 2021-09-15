@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE45F263F5267CEC30C4B783 /* Pods_OZIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D919668C33179F47D1FBCF5 /* Pods_OZIM.framework */; };
 		C4032FAC26F1BED2007DF0E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FAB26F1BED2007DF0E6 /* AppDelegate.m */; };
 		C4032FAF26F1BED2007DF0E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FAE26F1BED2007DF0E6 /* SceneDelegate.m */; };
 		C4032FB226F1BED2007DF0E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FB126F1BED2007DF0E6 /* ViewController.m */; };
@@ -14,9 +15,18 @@
 		C4032FB726F1BED2007DF0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4032FB626F1BED2007DF0E6 /* Assets.xcassets */; };
 		C4032FBA26F1BED2007DF0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4032FB826F1BED2007DF0E6 /* LaunchScreen.storyboard */; };
 		C4032FBD26F1BED2007DF0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FBC26F1BED2007DF0E6 /* main.m */; };
+		C4032FD326F1BEF5007DF0E6 /* SSIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FC526F1BEF5007DF0E6 /* SSIMMessage.m */; };
+		C4032FD426F1BEF5007DF0E6 /* SSIMMsgHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FC826F1BEF5007DF0E6 /* SSIMMsgHelper.m */; };
+		C4032FD526F1BEF5007DF0E6 /* SSIMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FCB26F1BEF5007DF0E6 /* SSIMCommon.m */; };
+		C4032FD626F1BEF5007DF0E6 /* SSIMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FCC26F1BEF5007DF0E6 /* SSIMUser.m */; };
+		C4032FD726F1BEF5007DF0E6 /* SSIMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FCE26F1BEF5007DF0E6 /* SSIMUtils.m */; };
+		C4032FD826F1BEF5007DF0E6 /* SSIMPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C4032FCF26F1BEF5007DF0E6 /* SSIMPlatform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D919668C33179F47D1FBCF5 /* Pods_OZIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OZIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDD542150A7CFC49E06CB0B /* Pods-OZIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZIM.debug.xcconfig"; path = "Target Support Files/Pods-OZIM/Pods-OZIM.debug.xcconfig"; sourceTree = "<group>"; };
+		C3812FE579CFAA4D953271C8 /* Pods-OZIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZIM.release.xcconfig"; path = "Target Support Files/Pods-OZIM/Pods-OZIM.release.xcconfig"; sourceTree = "<group>"; };
 		C4032FA726F1BED2007DF0E6 /* OZIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4032FAA26F1BED2007DF0E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4032FAB26F1BED2007DF0E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,19 @@
 		C4032FB926F1BED2007DF0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4032FBB26F1BED2007DF0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4032FBC26F1BED2007DF0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4032FC526F1BEF5007DF0E6 /* SSIMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMMessage.m; sourceTree = "<group>"; };
+		C4032FC626F1BEF5007DF0E6 /* SSIMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMHeader.h; sourceTree = "<group>"; };
+		C4032FC726F1BEF5007DF0E6 /* SSIMPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMPlatform.h; sourceTree = "<group>"; };
+		C4032FC826F1BEF5007DF0E6 /* SSIMMsgHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMMsgHelper.m; sourceTree = "<group>"; };
+		C4032FCA26F1BEF5007DF0E6 /* SSIMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMUtils.h; sourceTree = "<group>"; };
+		C4032FCB26F1BEF5007DF0E6 /* SSIMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMCommon.m; sourceTree = "<group>"; };
+		C4032FCC26F1BEF5007DF0E6 /* SSIMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMUser.m; sourceTree = "<group>"; };
+		C4032FCD26F1BEF5007DF0E6 /* SSIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMMessage.h; sourceTree = "<group>"; };
+		C4032FCE26F1BEF5007DF0E6 /* SSIMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMUtils.m; sourceTree = "<group>"; };
+		C4032FCF26F1BEF5007DF0E6 /* SSIMPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSIMPlatform.m; sourceTree = "<group>"; };
+		C4032FD026F1BEF5007DF0E6 /* SSIMMsgHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMMsgHelper.h; sourceTree = "<group>"; };
+		C4032FD126F1BEF5007DF0E6 /* SSIMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMUser.h; sourceTree = "<group>"; };
+		C4032FD226F1BEF5007DF0E6 /* SSIMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSIMCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE45F263F5267CEC30C4B783 /* Pods_OZIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59C5F745E525A60DCB2D3B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD542150A7CFC49E06CB0B /* Pods-OZIM.debug.xcconfig */,
+				C3812FE579CFAA4D953271C8 /* Pods-OZIM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4032F9E26F1BED2007DF0E6 = {
 			isa = PBXGroup;
 			children = (
 				C4032FA926F1BED2007DF0E6 /* OZIM */,
 				C4032FA826F1BED2007DF0E6 /* Products */,
+				59C5F745E525A60DCB2D3B91 /* Pods */,
+				D61082A0A7A032E561EE231E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +97,7 @@
 		C4032FA926F1BED2007DF0E6 /* OZIM */ = {
 			isa = PBXGroup;
 			children = (
+				C4032FC426F1BEF5007DF0E6 /* IM */,
 				C4032FAA26F1BED2007DF0E6 /* AppDelegate.h */,
 				C4032FAB26F1BED2007DF0E6 /* AppDelegate.m */,
 				C4032FAD26F1BED2007DF0E6 /* SceneDelegate.h */,
@@ -76,6 +113,34 @@
 			path = OZIM;
 			sourceTree = "<group>";
 		};
+		C4032FC426F1BEF5007DF0E6 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				C4032FC526F1BEF5007DF0E6 /* SSIMMessage.m */,
+				C4032FC626F1BEF5007DF0E6 /* SSIMHeader.h */,
+				C4032FC726F1BEF5007DF0E6 /* SSIMPlatform.h */,
+				C4032FC826F1BEF5007DF0E6 /* SSIMMsgHelper.m */,
+				C4032FCA26F1BEF5007DF0E6 /* SSIMUtils.h */,
+				C4032FCB26F1BEF5007DF0E6 /* SSIMCommon.m */,
+				C4032FCC26F1BEF5007DF0E6 /* SSIMUser.m */,
+				C4032FCD26F1BEF5007DF0E6 /* SSIMMessage.h */,
+				C4032FCE26F1BEF5007DF0E6 /* SSIMUtils.m */,
+				C4032FCF26F1BEF5007DF0E6 /* SSIMPlatform.m */,
+				C4032FD026F1BEF5007DF0E6 /* SSIMMsgHelper.h */,
+				C4032FD126F1BEF5007DF0E6 /* SSIMUser.h */,
+				C4032FD226F1BEF5007DF0E6 /* SSIMCommon.h */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		D61082A0A7A032E561EE231E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D919668C33179F47D1FBCF5 /* Pods_OZIM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4032FC026F1BED2007DF0E6 /* Build configuration list for PBXNativeTarget "OZIM" */;
 			buildPhases = (
+				F0E7805C0268A5A71BE2A68A /* [CP] Check Pods Manifest.lock */,
 				C4032FA326F1BED2007DF0E6 /* Sources */,
 				C4032FA426F1BED2007DF0E6 /* Frameworks */,
 				C4032FA526F1BED2007DF0E6 /* Resources */,
+				2E50040383BE5EC1B1A8CF70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,15 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E50040383BE5EC1B1A8CF70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OZIM/Pods-OZIM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OZIM/Pods-OZIM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OZIM/Pods-OZIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E7805C0268A5A71BE2A68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OZIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4032FA326F1BED2007DF0E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4032FD626F1BEF5007DF0E6 /* SSIMUser.m in Sources */,
+				C4032FD526F1BEF5007DF0E6 /* SSIMCommon.m in Sources */,
 				C4032FB226F1BED2007DF0E6 /* ViewController.m in Sources */,
 				C4032FAC26F1BED2007DF0E6 /* AppDelegate.m in Sources */,
 				C4032FBD26F1BED2007DF0E6 /* main.m in Sources */,
+				C4032FD726F1BEF5007DF0E6 /* SSIMUtils.m in Sources */,
+				C4032FD426F1BEF5007DF0E6 /* SSIMMsgHelper.m in Sources */,
 				C4032FAF26F1BED2007DF0E6 /* SceneDelegate.m in Sources */,
+				C4032FD826F1BEF5007DF0E6 /* SSIMPlatform.m in Sources */,
+				C4032FD326F1BEF5007DF0E6 /* SSIMMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +403,7 @@
 		};
 		C4032FC126F1BED2007DF0E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BDD542150A7CFC49E06CB0B /* Pods-OZIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +421,7 @@
 		};
 		C4032FC226F1BED2007DF0E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3812FE579CFAA4D953271C8 /* Pods-OZIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
